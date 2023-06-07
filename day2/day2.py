@@ -27,3 +27,12 @@
 
 # average(4)#default b = 3
 # average(b=4)#default a = 9
+
+
+def average(*numbers):
+    sum = 0
+    for i in numbers:
+        sum = sum + i
+    print("Average is:", sum/len(numbers))
+
+average(23456787654323456787654, 5435, 535, 3, 535,353,53, 5,2)
