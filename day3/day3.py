@@ -1,4 +1,4 @@
-############################################################### RECURSION
+# RECURSION
 
 # def factorial(n):
 #     if(n==0 or n==1):
@@ -91,12 +91,37 @@
 
 ###Selection Sort
 
-list = [3, 5, 1, 43, 2, 45, 21, 53, 9]
+# list = [3, 5, 1, 43, 2, 45, 21, 53, 9]
 
-for i in range(0, len(list)-1):
-    for j in range(i+1, len(list)):
-        if list[i] > list[j]:
-            c=list[i]
-            list[i]=list[j]
-            list[j]=c
-print(list)
+# for i in range(0, len(list)-1):
+#     for j in range(i+1, len(list)):
+#         if list[i] > list[j]:
+#             c=list[i]
+#             list[i]=list[j]
+#             list[j]=c
+# print(list)
+
+############################################LISTS
+
+# l = [3, 5, 6,2, 4, 5, 1 "Manjot", True]
+# print(l)
+# print(type(l))
+# print(l[0])
+# print(l[1])
+# print(l[2])
+# print(l[4])
+# print(l[3])
+# print(l[1:-1])
+# print(l[1:4])
+# print(l[-3])
+
+l = [3, 5, 1, 43, 2, 45, 21, 53, 9]
+# l.sort(reverse = True)
+# print(l)
+# l.sort()
+# print(l)
+
+# l.insert(1, 45)
+m = [55, 77, 666]
+l.extend(m)
+print(l)
